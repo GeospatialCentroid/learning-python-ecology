@@ -38,17 +38,7 @@ conda install -c conda-forge jupyter pandas plotnine ipykernel -y
 
 ---
 
-## 4. Register the Environment as a Jupyter Kernel
-
-To ensure this specific environment is visible and selectable inside the Jupyter Notebook interface, register it as a kernel:
-
-```bash
-python -m ipykernel install --user --name=learning_python --display-name "Learning Python"
-```
-
----
-
-## 5. Launch and Use
+## 4. Launch and Use
 
 Launch your Jupyter interface:
 
@@ -56,17 +46,3 @@ Launch your Jupyter interface:
 jupyter notebook
 ```
 
-### Switching to the Environment:
-1. Open or create a notebook in your browser.
-2. Navigate to the top menu and select **Kernel > Change Kernel**.
-3. Choose **Python (data_viz)** from the dropdown list.
-
----
-
-## Advanced Feature Installation
-
-If your workflows require extended capabilities (such as integrating spatial data or advanced visualization options), you can install the extra dependencies for `plotnine` with this command:
-
-```bash
-conda install -c conda-forge "plotnine[extra]" -y
-```
