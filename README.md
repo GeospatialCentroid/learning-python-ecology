@@ -10,7 +10,7 @@ Conda is a package manager that allows you to install libraries that extend the 
 
 ---
 
-## 1. Instal Conda
+## 1. Install Conda
 
 To use Conda you'll first need to install [Conda Forge](https://conda-forge.org/download/). Choose the latest  version for your operating system from the web page, download and install
 
